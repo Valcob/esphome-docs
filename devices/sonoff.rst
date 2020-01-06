@@ -80,10 +80,24 @@ Sonoff Dual R2
 
     GPIO12, Relay #1,
     GPIO5, Relay #2,
-    GPIO10, Button,
+    GPIO10, Button,    
+    GPIO00, Button0(inside header board v1.4),
+    GPIO09, Button1(available on the board v1.4),
     GPIO13, Blue LED (inverted),
     GPIO4, Optional sensor
     GPIO14, Optional sensor
+
+Sonoff Dual R2 v1.4
+--------------
+
+.. pintable::
+
+    GPIO00, Button #0(inside header board v1.4),
+    GPIO09, Button #1(available on the board v1.4),
+    GPIO12, Relay #1,
+    GPIO5, Relay #2,
+    GPIO10, Button on the case,    
+    GPIO13, Blue LED (inverted)
 
 Sonoff Pow R1
 -------------
